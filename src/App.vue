@@ -12,9 +12,17 @@
         github="https://github.com/paguco/disbott"
       />
       <project
+        bg="#0072BB"
+        color="#fff"
+        textalign="left"
+        name="EquationsApp"
+        tag="App for scientific equations"
+        github="https://github.com/paguco/EquationsApp"
+      />
+      <project
         bg="#fff"
         color="#111"
-        textalign="left"
+        textalign="center"
         name="Hubble"
         tag="A dashboard system"
         github="https://github.com/paguco/hubble"
@@ -22,7 +30,7 @@
       <project
         bg="#333"
         color="#fff"
-        textalign="center"
+        textalign="right"
         name="StyleGuide"
         tag="A styleguide to liveby"
         github="https://github.com/paguco/styleguide"
