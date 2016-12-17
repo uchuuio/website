@@ -29,7 +29,7 @@
       </div>
       <div class="fl w-100 w-20-ns pa2">
         <member
-          image="https://avatars3.githubusercontent.com/u/1489268?v=3&s=460"
+          image="static/sam.jpg"
           name="sam"
           position="developer"
           description="sam is primarily a backend developer and has been working on disbott with tomo. He is relatively new to development but has great passion for his work and loves to learn. When not developing, Sam likes to play video games."
