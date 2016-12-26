@@ -7,7 +7,7 @@
       <div class="tc">
         <a class="link f6 f5-ns dib mr3" href="#projects" title="Projects">Projects</a>
         <a class="link f6 f5-ns dib mr3" href="#about" title="About Us">Who We Are</a>
-        <a class="link f6 f5-ns dib mr3" href="https://github.com/paguco" title="Github">Github</a>
+        <a class="link f6 f5-ns dib mr3" href="https://github.com/uchuuio" title="Github">Github</a>
         <!--<a class="link f6 f5-ns dib" href="#" title="Contact">Contact</a>-->
       </div>
     </div>

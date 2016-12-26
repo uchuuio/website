@@ -1,8 +1,8 @@
 {
-  "name": "paguco",
+  "name": "uchuuio",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Thomas Moore <tomo@pagu.co>",
+  "author": "Thomas Moore <tomo@uchuu.io>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

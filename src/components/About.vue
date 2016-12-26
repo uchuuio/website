@@ -10,9 +10,9 @@
           name="tomo"
           position="lead"
           description="tomo leads the group working mostly as a developer though is known to do music. tomo likes to work in Javascript and has a great keeness for frontend development. In his spare time, he is learning Japanese, drumming and playing rhythm games."
-          twitter="tomopagu"
-          github="tomopagu"
-          link="https://tomo.pagu.co"
+          twitter="tomouchuu"
+          github="tomouchuu"
+          link="https://tomo.uchuu.io"
         />
       </div>
       <div class="fl w-100 w-20-ns pa2">
