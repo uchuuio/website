@@ -2,7 +2,8 @@
   <div class="hero">
     <div class="herobg"></div>
     <div class="herocontent">
-      <h1 class="b f1 f-headline-ns lh-title tc db mb3 mb4-ns mt0">{{name}}</h1>
+      <h1 class="b f1 f-headline-ns lh-title tc db ma0">{{name}}</h1>
+      <h2 class="b f2 lh-title tc db mt0 mb4" style="margin-top: -30px;">宇宙</h2>
       <div class="tc">
         <a class="link f6 f5-ns dib mr3" href="#projects" title="Projects">Projects</a>
         <a class="link f6 f5-ns dib mr3" href="#about" title="About Us">Who We Are</a>
@@ -18,7 +19,7 @@ export default {
   name: 'hero',
   data() {
     return {
-      name: 'paguco',
+      name: 'uchuu',
     };
   },
 };
@@ -27,6 +28,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .hero {
+    background-attachment: fixed;
     background-image: url('../assets/herobg.jpg');
     background-position: center;
     background-size: cover;

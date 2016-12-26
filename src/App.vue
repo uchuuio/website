@@ -8,8 +8,8 @@
         textalign="right"
         name="Disbott"
         tag="A chatbot for Discord"
-        link="https://disbott.pagu.co"
-        github="https://github.com/paguco/disbott"
+        link="https://disbott.uchuu.io"
+        github="https://github.com/uchuuio/disbott"
       />
       <project
         bg="#0072BB"
@@ -17,7 +17,7 @@
         textalign="left"
         name="EquationsApp"
         tag="App for scientific equations"
-        github="https://github.com/paguco/EquationsApp"
+        github="https://github.com/uchuuio/EquationsApp"
       />
       <project
         bg="#fff"
@@ -25,7 +25,7 @@
         textalign="center"
         name="Hubble"
         tag="A dashboard system"
-        github="https://github.com/paguco/hubble"
+        github="https://github.com/uchuuio/hubble"
       />
       <project
         bg="#333"
@@ -33,7 +33,7 @@
         textalign="right"
         name="StyleGuide"
         tag="A styleguide to liveby"
-        github="https://github.com/paguco/styleguide"
+        github="https://github.com/uchuuio/styleguide"
       />
     </div>
     <about />

@@ -1,6 +1,6 @@
-# paguco
+# uchuu
 
-> paguco's website
+> uchuu's website
 
 ## Build Setup
 

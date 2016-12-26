@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="about mw8 mw9-ns center pa3 ph4-ns">
     <h3 class="f2 mb1">Who We Are</h3>
-    <p>paguco is a creative multimedia studio incorporating all aspects of multimedia with web development at the forefront. Our team has worked on not only web development but music and videos too. Set up and lead by tomo in the style of Japanese Circles such as Supercell & Honeyworks where the members of the group are not all musicians or artists but come together to work on projects together. Members are encouraged to share their work with other members so we can all lean on each other for support and feedback making everything we do the best it can be!</p>
+    <p>uchuu is a creative multimedia studio incorporating all aspects of multimedia with web development at the forefront. Our team has worked on not only web development but music and videos too. Set up and lead by tomo in the style of Japanese Circles such as Supercell & Honeyworks where the members of the group are not all musicians or artists but come together to work on projects together. Members are encouraged to share their work with other members so we can all lean on each other for support and feedback making everything we do the best it can be!</p>
     <p>The team is currently made of:</p>
     <div class="cf ph2-ns">
       <div class="fl w-100 w-20-ns pa2">
@@ -20,7 +20,7 @@
           image="https://scontent.flhr3-1.fna.fbcdn.net/v/t31.0-8/15122966_1810080195906559_6565989952278776640_o.jpg?oh=157072c9162343246cfa6ce74c661647&oe=58F3971A"
           name="jess"
           position="musician"
-          description="jess is the group's primary musician and colloborates with tomo and many artists outside of the paguco group. When not singing she likes to dream about pugs."
+          description="jess is the group's primary musician and colloborates with tomo and many artists outside of the uchuu group. When not singing she likes to dream about pugs."
           twitter="jessicamoorey"
           facebook="jessicamoorevocalist"
           soundcloud="jessicamoorevocalist"
