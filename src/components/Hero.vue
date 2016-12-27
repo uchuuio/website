@@ -3,11 +3,11 @@
     <div class="herobg"></div>
     <div class="herocontent">
       <h1 class="b f1 f-headline-ns lh-title tc db ma0">{{name}}</h1>
-      <h2 class="b f2 lh-title tc db mt0 mb4" style="margin-top: -30px;">宇宙</h2>
-      <div class="tc">
-        <a class="link f6 f5-ns dib mr3" href="#projects" title="Projects">Projects</a>
-        <a class="link f6 f5-ns dib mr3" href="#about" title="About Us">Who We Are</a>
-        <a class="link f6 f5-ns dib mr3" href="https://github.com/uchuuio" title="Github">Github</a>
+      <h2 class="b f2 lh-title tc db mt0 mb4" style="margin-top: -30px;">{{subtitle}}</h2>
+      <div class="navigation tc">
+        <a class="projects-link link f6 f5-ns dib mr3" href="#projects" title="Projects">Projects</a>
+        <a class="about-link link f6 f5-ns dib mr3" href="#about" title="About Us">Who We Are</a>
+        <a class="github-link link f6 f5-ns dib mr3" href="https://github.com/uchuuio" title="Github">Github</a>
         <!--<a class="link f6 f5-ns dib" href="#" title="Contact">Contact</a>-->
       </div>
     </div>
@@ -20,6 +20,7 @@ export default {
   data() {
     return {
       name: 'uchuu',
+      subtitle: '宇宙',
     };
   },
 };

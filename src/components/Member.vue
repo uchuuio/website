@@ -4,11 +4,11 @@
     <h4>{{name}}</h4>
     <h5>{{position}}</h5>
     <p>{{description}}</p>
-    <a v-if="twitter" v-bind:href="'https://twitter.com/' + twitter" v-bind:title="'Follow ' + name + ' on Twitter'"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-    <a v-if="github" v-bind:href="'https://github.com/' + github" v-bind:title="'Follow ' + name + ' on Github'"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-    <a v-if="facebook" v-bind:href="'https://facebook.com/' + facebook" v-bind:title="'Like ' + name + ' on Facebook'"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-    <a v-if="soundcloud" v-bind:href="'https://soundcloud.com/' + soundcloud" v-bind:title="'Follow ' + name + ' on Soundcloud'"><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a>
-    <a v-if="link" v-bind:href="link" v-bind:title="name + '\'s website'"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+    <a class="twitter-link" v-if="twitter" v-bind:href="'https://twitter.com/' + twitter" v-bind:title="'Follow ' + name + ' on Twitter'"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    <a class="github-link" v-if="github" v-bind:href="'https://github.com/' + github" v-bind:title="'Follow ' + name + ' on Github'"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+    <a class="facebook-link" v-if="facebook" v-bind:href="'https://facebook.com/' + facebook" v-bind:title="'Like ' + name + ' on Facebook'"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+    <a class="soundcloud-link" v-if="soundcloud" v-bind:href="'https://soundcloud.com/' + soundcloud" v-bind:title="'Follow ' + name + ' on Soundcloud'"><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a>
+    <a class="url-link" v-if="link" v-bind:href="link" v-bind:title="name + '\'s website'"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
   </div>
 </template>
 
