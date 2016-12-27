@@ -2,6 +2,8 @@
 
 > uchuu's website
 
+[![Build Status](https://travis-ci.org/uchuuio/website.svg?branch=master)](https://travis-ci.org/uchuuio/website)
+
 ## Build Setup
 
 ``` bash
