@@ -3,7 +3,9 @@ node_js: node
 script:
   - yarn run lint
   - yarn test
-  - npm i -g now-pipeline
-  - now-pipeline-prune
-  - now-pipeline
-  - now-pipeline-list
+  - echo "CI Complete, cleared to deploy!"
+  - echo "Ping @tomouchuu to deploy"
+  # - npm i -g now-pipeline
+  # - now-pipeline-prune
+  # - now-pipeline
+  # - now-pipeline-list

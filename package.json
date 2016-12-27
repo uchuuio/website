@@ -10,13 +10,15 @@
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
+    "deploy": "now && now alias",
     "start": "node server.js"
   },
   "now": {
     "alias": "www.uchuu.io"
   },
   "files": [
-    "dist"
+    "dist",
+    "server.js"
   ],
   "dependencies": {
     "express": "^4.14.0",
