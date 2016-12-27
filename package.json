@@ -1,7 +1,7 @@
 {
   "name": "uchuuio",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "uchuu's website",
   "author": "Thomas Moore <tomo@uchuu.io>",
   "private": true,
   "scripts": {
@@ -12,6 +12,12 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "deploy": "ns dist/"
   },
+  "now": {
+    "alias": "www.uchuu.io"
+  },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "vue": "^2.1.0"
   },
