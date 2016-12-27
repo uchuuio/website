@@ -10,7 +10,7 @@
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
-    "deploy": "now && now alias",
+    "deploy": "now; now alias",
     "start": "node server.js"
   },
   "now": {
