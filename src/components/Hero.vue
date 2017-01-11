@@ -3,11 +3,11 @@
     <div class="herobg"></div>
     <div class="herocontent">
       <h1 class="b f1 f-headline-ns lh-title tc db ma0">{{name}}</h1>
-      <h2 class="b f2 lh-title tc db mt0 mb4" style="margin-top: -30px;">{{subtitle}}</h2>
+      <h2 class="jp-title b f2 lh-title tc db mb4">{{subtitle}}</h2>
       <div class="navigation tc">
-        <a class="projects-link link f6 f5-ns dib mr3" href="#projects" title="Projects">Projects</a>
-        <a class="about-link link f6 f5-ns dib mr3" href="#about" title="About Us">Who We Are</a>
-        <a class="github-link link f6 f5-ns dib mr3" href="https://github.com/uchuuio" title="Github">Github</a>
+        <a class="projects-link link f6 f5-ns dib mr3 mr0-ns" href="#projects" title="Projects">Projects</a>
+        <a class="about-link link f6 f5-ns dib mr3 mr0-ns" href="#about" title="About Us">Who We Are</a>
+        <a class="github-link link f6 f5-ns dib mr3 mr0-ns" href="https://github.com/uchuuio" title="Github">Github</a>
         <!--<a class="link f6 f5-ns dib" href="#" title="Contact">Contact</a>-->
       </div>
     </div>
@@ -52,6 +52,18 @@ export default {
     left: 50%;
     transform: translate(-50%);
     z-index: 2;
+  }
+
+  .jp-title {
+    margin-top: -30px;
+  }
+  @media screen and (max-width: 768px) {
+    .jp-title {
+      margin-top: -20px;
+    }
+    .mr0-ns {
+      margin-right: 0;
+    }
   }
 
   .link {
