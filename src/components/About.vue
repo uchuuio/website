@@ -48,11 +48,10 @@
       </div>
       <div class="fl w-100 w-20-ns pa2">
         <member
-          image="https://avatars0.githubusercontent.com/u/20307936?v=3&s=460"
-          name="dom"
-          position="developer"
-          description="dom does things sometimes"
-          github="Thatdwarf"
+          image="https://cdn2.iconfinder.com/data/icons/website-icons/512/User_Avatar-512.png"
+          name="matt"
+          position="designer"
+          description="our reluctant designer"
         />
       </div>
     </div>
