@@ -1,0 +1,18 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #FFFCF9;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui',arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.border-box, article, body, code, dd, div, dl, dt, fieldset, footer, form, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], li, main, ol, p, pre, section, textarea, ul {
+  box-sizing: border-box;
+}
