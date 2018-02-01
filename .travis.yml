@@ -1,10 +1,7 @@
 language: node_js
 node_js: node
 script:
-  - yarn run lint
   - yarn test
-  - echo "CI Complete, cleared to deploy!"
-  - echo "Ping @tomouchuu to deploy"
   # - npm i -g now-pipeline
   # - now-pipeline-prune
   # - now-pipeline
