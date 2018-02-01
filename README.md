@@ -11,20 +11,15 @@
 # install dependencies
 npm(yarn) install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with hot reload at localhost:3000
+yarn run start
 
 # build for production with minification
-npm run build
+yarn run build
 
 # deploy to now
-npm run deploy
+yarn run deploy
 
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
+# run tests
+yarn test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
