@@ -19,6 +19,12 @@ function IconStyling(color) {
 };
 
 const SocialIcon = styled.a`
+margin: 0 5px;
+
+& .facebook {
+  ${IconStyling('#3b5998')}
+}
+
 & .twitter {
   ${IconStyling('#55acee')}
 }
