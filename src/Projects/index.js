@@ -54,15 +54,6 @@ class Projects extends Component {
           link="https://zen.uchuu.io"
           github="https://github.com/uchuuio/zen"
         />
-
-        <Project
-          bg="#333333"
-          color="#fff"
-          textalign="center"
-          name="Smaffle"
-          tag="A smart shuffling solution for spotify"
-          github="https://github.com/uchuuio/smaffle"
-        />
       </div>
     );
   }
