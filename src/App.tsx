@@ -19,7 +19,7 @@ function App() {
   });
 
   return (
-    <main class="bg-stone-950 text-stone-50 h-screen w-screen flex justify-center align-items-center">
+    <main class="bg-stone-950 text-stone-50 h-screen w-screen flex justify-center align-items-center overflow-hidden">
       <div class="m-auto relative group">
         <section class="z-1 absolute top-0 left-0" style={{ top: `-${overlayYPos()}px`, left: `-${overlayXPos()}px` }}>
           <Planet color="var(--color-yellow-400)" ref={topPlanetRef}>
