@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "sso": "aws sso login --sso-session=uchuu",
-    "build": "tsc -b && vite build",
-    "dev": "vite",
-    "preview": "vite preview"
+    "build": "bunx --bun tsc -b && bunx --bun vite build",
+    "dev": "bunx --bun vite",
+    "preview": "bunx --bun vite preview"
   },
   "dependencies": {
     "solid-js": "^1.9.4",
