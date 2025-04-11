@@ -3,5 +3,15 @@
   "compatibility_date": "2025-04-03",
   "assets": {
     "not_found_handling": "single-page-application"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "uchuu.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.uchuu.io",
+      "custom_domain": true
+    }
+  ]
 }
