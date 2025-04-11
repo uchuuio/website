@@ -1,24 +1,25 @@
 {
   "name": "@uchuuio/website",
   "private": true,
-  "version": "3.0.0",
+  "version": "4.0.0",
   "type": "module",
   "scripts": {
-    "sso": "aws sso login --sso-session=uchuu",
-    "build": "bunx --bun tsc -b && bunx --bun vite build",
-    "dev": "bunx --bun vite",
-    "preview": "bunx --bun vite preview"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "solid-js": "^1.9.4",
-    "sst": "3.9.2",
     "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.0.5",
     "@tailwindcss/vite": "^4.0.6",
     "@types/aws-lambda": "8.10.147",
     "typescript": "~5.7.2",
     "vite": "^6.1.0",
-    "vite-plugin-solid": "^2.11.0"
+    "vite-plugin-solid": "^2.11.0",
+    "wrangler": "^4.10.0"
   }
 }
