@@ -19,23 +19,39 @@ function App() {
   });
 
   return (
-    <main class="bg-stone-950 text-stone-50 h-screen w-screen flex justify-center align-items-center overflow-hidden">
-      <div class="m-auto relative group">
-        <section class="z-1 absolute top-0 left-0" style={{ top: `-${overlayYPos()}px`, left: `-${overlayXPos()}px` }}>
-          <Planet color="var(--color-yellow-400)" ref={topPlanetRef}>
-            <Planet color="var(--color-violet-700)">
-              <Planet color="var(--color-green-400)">
-                <Planet color="var(--color-sky-400)" height={contentHeight()} width={contentWidth()} />
+    <div class="bg-stone-950 text-stone-50">
+      <main class="h-screen w-screen flex justify-center align-items-center overflow-hidden">
+        <div class="m-auto relative group">
+          <section class="z-1 absolute top-0 left-0" style={{ top: `-${overlayYPos()}px`, left: `-${overlayXPos()}px` }}>
+            <Planet color="var(--color-yellow-400)" ref={topPlanetRef}>
+              <Planet color="var(--color-violet-700)">
+                <Planet color="var(--color-green-400)">
+                  <Planet color="var(--color-sky-400)" height={contentHeight()} width={contentWidth()} />
+                </Planet>
               </Planet>
             </Planet>
-          </Planet>
-        </section>
-        <div class="z-2 relative text-center" ref={contentRef}>
-          <h1 class="text-6xl tracking-wide">- 宇宙 -</h1>
-          <p class="mt-1">from <a href="https://tomo.uchuu.io">tomo</a></p>
+          </section>
+          <div class="z-2 relative text-center" ref={contentRef}>
+            <h1 class="text-6xl tracking-wide">- 宇宙 -</h1>
+            <p class="mt-1">from <a href="https://tomo.uchuu.io" class="hover:underline">thomas</a> & friends</p>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+
+      <section class="max-w-screen-md mx-auto p-4">
+        <h3 class="text-4xl mb-4">Projects</h3>
+        <div class="flex flex-col gap-4">
+          <div>
+            <h4 class="text-2xl"><a href="https://translator.uchuu.io" class="hover:underline">Translator</a></h4>
+            <p>Your passport to a universe of languages</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-screen-md mx-auto p-4 mt-10">
+        <h5 class="text-center text-md mb-4"><a href="https://github.com/uchuuio" class="hover:underline">Github</a></h5>
+      </section>
+    </div>
   )
 }
 
