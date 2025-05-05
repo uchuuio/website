@@ -7,7 +7,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "npm run build && vite preview",
-    "deploy": "npm run build && wrangler deploy"
+    "types": "wrangler types"
   },
   "dependencies": {
     "solid-js": "^1.9.4",
