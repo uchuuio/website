@@ -19,8 +19,8 @@ function App() {
   });
 
   return (
-    <div class="bg-stone-950 text-stone-50">
-      <main class="h-screen w-screen flex justify-center align-items-center overflow-hidden">
+    <div class="bg-stone-950 text-stone-50 font-mono">
+      <main class="h-screen w-screen flex justify-center align-items-center overflow-hidden font-sans">
         <div class="m-auto relative group">
           <section class="z-1 absolute top-0 left-0" style={{ top: `-${overlayYPos()}px`, left: `-${overlayXPos()}px` }}>
             <Planet color="var(--color-yellow-400)" ref={topPlanetRef}>
@@ -39,17 +39,31 @@ function App() {
       </main>
 
       <section class="max-w-screen-md mx-auto p-4">
-        <h3 class="text-4xl mb-4">Projects</h3>
-        <div class="flex flex-col gap-4">
+        <h3 class="text-4xl mb-8">Missions</h3>
+        <div class="flex flex-col gap-8">
           <div>
-            <h4 class="text-2xl"><a href="https://translator.uchuu.io" class="hover:underline">Translator</a></h4>
+            <h4 class="text-2xl">
+              01: <a href="https://translator.uchuu.io" class="hover:underline">Translator</a>
+            </h4>
             <p>Your passport to a universe of languages</p>
           </div>
+          {/* <div class="text-right">
+            <h4 class="text-2xl">
+              02: <a href="https://translator.uchuu.io" class="hover:underline">Translator</a>
+            </h4>
+            <p>Your passport to a universe of languages</p>
+          </div>
+          <div>
+            <h4 class="text-2xl">
+              03: <a href="https://translator.uchuu.io" class="hover:underline">Translator</a>
+            </h4>
+            <p>Your passport to a universe of languages</p>
+          </div> */}
         </div>
       </section>
 
-      <section class="max-w-screen-md mx-auto p-4 mt-10">
-        <h5 class="text-center text-md mb-4"><a href="https://github.com/uchuuio" class="hover:underline">Github</a></h5>
+      <section class="max-w-screen-md mx-auto p-4 mt-12">
+        <h5 class="text-center text-md"><a href="https://github.com/uchuuio" class="hover:underline">Github</a></h5>
       </section>
     </div>
   )
